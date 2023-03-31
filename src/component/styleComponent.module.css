@@ -1,0 +1,45 @@
+/* * NavBar styles* */
+
+.NavBarAlign {
+  margin-left: 35px;
+}
+.ButtonDesign {
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 991px) {
+  .LogoAlign {
+    margin-left: 180%;
+  }
+  .MenuAlign {
+    margin-top: -30px;
+  }
+}
+
+/* *Section Component Styles* */
+.backgroundStyle {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+.firstDiv {
+  height: 100%;
+  width: 100%;
+  background: black;
+}
+.secondDiv {
+  height: 100%;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  overflow: hidden;
+}
+
+.align_1 {
+  text-align: center;
+  margin-top: 30%;
+  color: white;
+}
+.align_2 {
+  text-align: center;
+}
